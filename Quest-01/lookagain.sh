@@ -1,0 +1,1 @@
+find . -type f -name '*.sh' | sort -r | sed 's/\.sh$//' | sed 's|^\./||' | xargs -n 1 basename
